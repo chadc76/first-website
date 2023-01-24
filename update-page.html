@@ -22,41 +22,43 @@
       <h1 class="main-heading">Sign Up For our Updates!</h1>
     </div>
 
-    <form action="home-page.html" method="post">
-      <fieldset class="main-content fieldset">
+    <div class="main-content">
+      <form action="home-page.html" method="post">
+        <fieldset class="fieldset">
 
-        <div>
-          <legend>Sign Up!</legend>
+          <div class="form-div">
+            <legend>Sign Up!</legend>
 
-          <div>
-            <label for="firstName">First Name: </label>
-            <input type="text" name="first_name" id="firstName">
+            <div class="input-div">
+              <label for="firstName">First Name</label>
+              <input type="text" name="first_name" id="firstName">
+            </div>
+
+            <div class="input-div">
+              <label for="lastName">Last Name</label>
+              <input type="text" name="last_name" id="lastName">
+            </div>
+
+            <div class="input-div">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+            </div>
+
+            <div class="input-div">
+              <input type="checkbox" name="team_update" id="teamUpdate">
+              <label for="teamUpdate">Sign up for latest Team News</label>
+            </div>
+
+            <div class="input-div">
+              <label class="textarea-label" for="message">Send a Message to Other Fans</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+
           </div>
-
-          <div>
-            <label for="lastName">Last Name: </label>
-            <input type="text" name="last_name" id="lastName">
-          </div>
-
-          <div>
-            <label for="email">Email: </label>
-            <input type="email" name="email" id="email">
-          </div>
-
-          <div>
-            <input type="checkbox" name="team_update" id="teamUpdate">
-            <label for="teamUpdate">Sign up for latest Team News</label>
-          </div>
-
-          <div>
-            <label for="message">Send a Message to Other Fans</label>
-            <textarea name="message" id="message"></textarea>
-          </div>
-
-          <button type="submit">Submit</button>
-
-        </div>
-      </fieldset>
-    </form>
+        </fieldset>
+      </form>
+    </div>
   </body>
 </html>
