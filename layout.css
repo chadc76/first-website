@@ -249,6 +249,8 @@ legend {
   background-color: #869397;
   border: 3px solid #000000;
   border-radius: 10px;
+  font-size: 22px;
+  color: #041E42;
 }
 
 .input-div textarea {
@@ -269,4 +271,12 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #003594;
   color: #869397;
+}
+
+.input-div input[type="email"], .input-div input[type="text"] {
+  width: 340px;
+}
+
+.email-label {
+  margin-right: 60px;
 }
