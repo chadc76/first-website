@@ -111,3 +111,77 @@ h2 {
   text-align: center;
   margin: 25px 0;
 }
+
+.home-top-divs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-right-div {
+  width: 50%;
+  border: 3px solid #000000;
+  margin-right: 75px;
+  margin-left: 20px;
+}
+
+.home-left-div {
+  width: 50%;
+  border: 3px solid #000000;
+  margin-left: 75px;
+  margin-right: 20px;
+}
+
+.home-div-headings {
+  text-align: center;
+}
+
+.pog-div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: none;
+  margin: 0 10px;
+}
+
+.pog-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pog-img-div, .pog-stat-div {
+  width: 50%;
+}
+
+.pog-stat-div li, .home-right-div p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.pog-img-div label, .pog-stat-div h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #041E42;
+  text-decoration: underline #000000;
+  -webkit-text-stroke: 1px black;
+}
+
+.pog-img-div label {
+  display: block;
+  padding: 24px 0;
+}
+
+.pog-stat-div {
+  margin-right: 10px;
+}
+
+.pog-stat-div ul {
+  padding-left: 15px;
+}
+
+.home-right-div p {
+  margin: 20px;
+}
