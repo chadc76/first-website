@@ -153,6 +153,7 @@ h2 {
 
 .pog-img-div, .pog-stat-div {
   width: 50%;
+  padding-bottom: 20px;
 }
 
 .pog-stat-div li, .home-right-div p {
@@ -179,7 +180,7 @@ h2 {
 }
 
 .pog-stat-div ul {
-  padding-left: 15px;
+  padding-left: 40px;
 }
 
 .home-right-div p {
