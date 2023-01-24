@@ -263,6 +263,7 @@ legend {
 button[type="submit"] {
   cursor: pointer;
   color: #041E42;
+  margin: 10px 0 25px 0;
 }
 
 button[type="submit"]:hover {
