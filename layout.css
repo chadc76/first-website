@@ -26,7 +26,6 @@ li {
 
 a {
   text-decoration: none;
-  display: block;
 }
 
 h3, .nav-list-item a {
@@ -70,6 +69,9 @@ h2 {
   border: 3px solid #000000;
 }
 
+.nav-list-item a {
+  display: block;
+}
 .nav-list-item:hover {
   background-color: #003594;
   border-radius: 10px;
@@ -279,4 +281,63 @@ button[type="submit"]:hover {
 
 .email-label {
   margin-right: 60px;
+}
+
+.link-container {
+  padding: 0;
+  text-align: center;
+  width: 75%;
+  margin: 50px auto;
+}
+
+.social-list-item {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+  margin: auto;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  background-color: #041E42;
+  margin-bottom: 10px;
+  padding: 2px;
+}
+
+i {
+  font-size: 24px;
+  color: #869397;
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+  padding-right: 5px;
+}
+
+.social-list-item a {
+  color: #869397;
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+  font-size: 24px;
+}
+
+.social-list-item:hover {
+  background-color: #003594;
+}
+
+.facebook {
+  position: relative;
+  right: 3px;
+}
+
+.twitter {
+  position: relative;
+  right: 16px;
+}
+
+.tiktok {
+  position: relative;
+  right: 19px;
+}
+
+.web {
+  position: relative;
+  right: 76px;
 }
